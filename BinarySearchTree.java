@@ -156,7 +156,7 @@ public class BinarySearchTree {
 	}
 
 	/*
-	 * Preorder traversal : Left - Right- Root
+	 * Preorder traversal : Root - Left- Right
 	 */
 	public void preOrder(Node node) {
 		System.out.println(node.data);
